@@ -74,9 +74,7 @@ provider:
     NODE_ENV: ${opt:stage}
     API_REGION: ${opt:region}
     API_CORS_ORIGIN: ${self:custom.apiCorsOrigin}
-    COGNITO_USER_POOL_ID:
-      # 'ap-southeast-2_zADQdNgNo' # If manually specifying, format expected "ap-southeast-2_zADQdNgNo"
-      Ref: ap-southeast-2_4p0apgYtN
+    COGNITO_USER_POOL_ID: ap-southeast-2_4p0apgYtN
   apiGateway:
     minimumCompressionSize: 1024
   iam:
