@@ -76,7 +76,7 @@ provider:
     API_CORS_ORIGIN: ${self:custom.apiCorsOrigin}
     COGNITO_USER_POOL_ID:
       # 'ap-southeast-2_zADQdNgNo' # If manually specifying, format expected "ap-southeast-2_zADQdNgNo"
-      Ref: CognitoUserPool # For local add/invite user operations, comment this line out and uncomment above and set correct user pool id
+      Ref: ap-southeast-2_4p0apgYtN
   apiGateway:
     minimumCompressionSize: 1024
   iam:
