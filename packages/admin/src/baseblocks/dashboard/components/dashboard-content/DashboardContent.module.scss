@@ -1,6 +1,16 @@
 @use '../../../../styles/global';
 
 .dashboard {
+  .todo {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+
+    p {
+      margin: 0;
+    }
+  }
+
   h1 {
     margin-bottom: 32px;
   }
