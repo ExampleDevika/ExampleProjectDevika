@@ -1,9 +1,5 @@
 import { Status, Todo } from '@baseline/types/todo';
-import {
-  getDynamodbConnection,
-  queryItems,
-  queryItemsRange,
-} from '@baselinejs/dynamodb';
+import { getDynamodbConnection, queryItemsRange } from '@baselinejs/dynamodb';
 import { ServiceObject } from '../../util/service-object';
 
 const dynamoDb = getDynamodbConnection({
